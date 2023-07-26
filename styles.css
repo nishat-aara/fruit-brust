@@ -7,8 +7,8 @@
         }
        
      body{
-        width: 100%;
-        margin: auto;
+        width: 96%;
+        margin:0,auto;
      }   
 }
 
@@ -18,7 +18,7 @@
         
     }
     body{
-        width: 100%;
-        margin: auto;
+        width: 96%;
+        margin: 0,auto;
     }
 }
