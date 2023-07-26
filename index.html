@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust</title>
+    <link rel="stylesheet" href="styles.css">
 <!-- tailwind and daisy ui -->
 <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -75,10 +76,10 @@
           </div>
     </nav>
     <!-- slider -->
-    <header class="container mx-auto my-12">
-      <div class="carousel w-full ">
+    <header class="container mx-auto my-12 relative">
+      <div class="carousel  w-full ">
         <div id="slide1" class="carousel-item relative w-full ">
-          <div class="hero w-full min-h-screen" style="background-image: url(./images/banner1.png);">
+          <div class="hero min-h-[calc(100vh-96px)]" style="background-image: url(./images/banner1.png);">
             <div class="hero-overlay bg-opacity-40"></div>
             <div class="hero-content text-center text-white">
               <div class="max-w-md">
@@ -94,7 +95,7 @@
           </div>
         </div> 
         <div id="slide2" class="carousel-item relative w-full">
-          <div class="hero w-full min-h-screen" style="background-image: url(./images/banner2.png);">
+          <div class="hero min-h-[calc(100vh-96px)]" style="background-image: url(./images/banner2.png);">
             <div class="hero-overlay bg-opacity-40"></div>
             <div class="hero-content text-center text-white">
               <div class="max-w-md">
@@ -110,7 +111,7 @@
           </div>
         </div> 
         <div id="slide3" class="carousel-item relative w-full">
-          <div class="hero w-full min-h-screen" style="background-image: url(./images/banner3.png);">
+          <div class="hero min-h-[calc(100vh-96px)]" style="background-image: url(./images/banner3.png);">
             <div class="hero-overlay bg-opacity-40"></div>
             <div class="hero-content text-center text-white">
               <div class="max-w-md">
@@ -126,7 +127,7 @@
           </div>
         </div> 
         <div id="slide4" class="carousel-item relative w-full">
-          <div class="hero w-full min-h-screen" style="background-image: url(./images/banner4.png);">
+          <div class="hero min-h-[calc(100vh-96px)] " style="background-image: url(./images/banner4.png);">
             <div class="hero-overlay bg-opacity-40"></div>
             <div class="hero-content text-center text-white">
               <div class="max-w-md">
@@ -142,6 +143,28 @@
           </div>
         </div>
       </div>
+             <div class="fruits-hide w-[1196px] h-[250px]  bg-[#FFF] rounded-lg drop-shadow-xl flex  lg:flex-row justify-center items-center space-x-16 text-center absolute left-40 -bottom-28">
+                <div class="">
+                  <img src="./images/fruit1.png" alt="">
+                  <p class="text-slate-700 font-medium">Grapes</p>
+                </div>
+                <div class="">
+                  <img src="./images/fruit2.png" alt="">
+                  <p class="text-slate-700 font-medium">Orange</p>
+                </div>
+                <div class="">
+                  <img src="./images/fruit3.png" alt="">
+                  <p class="text-slate-700 font-medium">Mango</p>
+                </div>
+                <div class="">
+                  <img src="./images/fruit4.png" alt="">
+                  <p class="text-slate-700 font-medium">Strawberry</p>
+                </div>
+                <div class="">
+                  <img src="./images/fruit5.png" alt="">
+                  <p class="text-slate-700 font-medium">Pomegranate</p>
+                </div>
+             </div>
     </header>
     <main>
 

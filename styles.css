@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+header{
+    
+}
+
+@media screen and (max-width:576px){
+    .fruits-hide{
+        display:none
+        
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px)  {
+    .fruits-hide{
+        display:none
+        
+    }
+}
