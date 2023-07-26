@@ -1,22 +1,21 @@
-*{
-    margin: 0px;
-    padding: 0px;
-   
-}
-header{
-    
+
+  
+ @media screen and (max-width:576px){
+    div.fruits-hide{
+        display:none
+       
+        }
+     body{
+        width: 100%;
+     }   
 }
 
-@media screen and (max-width:576px){
-    .fruits-hide{
+ @media screen and (min-width:576px) and (max-width:992px){
+    div.fruits-hide{
         display:none
         
     }
-}
-
-@media screen and (min-width:576px) and (max-width:992px)  {
-    .fruits-hide{
-        display:none
-        
+    body{
+        width: 100%;
     }
 }
